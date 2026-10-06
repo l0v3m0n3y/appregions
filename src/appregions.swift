@@ -66,7 +66,7 @@ public class appRegions {
     public func getRegionsApp(appId: Int) async throws -> Any {
         try await fetchJSON(
             from: "\(api)/check",
-            queryParameters: ["id": String(appID)]
+            queryParameters: ["id": String(appId)]
         )
     }
 }
