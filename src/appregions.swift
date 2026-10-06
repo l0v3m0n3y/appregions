@@ -37,6 +37,7 @@ public class appRegions {
 
     public init() {
         self.headers = [
+            "referer": "https://www.appregions.com/",
             "Connection": "keep-alive",
             "Accept-Encoding": "deflate, zstd",
             "Accept-Language": "en-US,en;q=0.9",
